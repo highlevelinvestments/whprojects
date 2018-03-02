@@ -1,0 +1,31 @@
+html
+{
+    background-color: khaki;
+}
+section
+{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+    background-color: whitesmoke;
+}
+div
+{
+    flex: 1;
+    // flex-basis: 0;
+    // flex-shrink: 0;
+    // flex-grow: 0;
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 5px;
+}
+div:nth-child(4)
+{
+    // align-self: flex-start;
+    // background-color: yellowgreen;
+}

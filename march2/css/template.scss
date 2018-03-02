@@ -1,0 +1,72 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%, 96%);
+$black: hsl(0, 0%, 8%);
+
+body
+{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+header
+{
+    padding: 10vw 2vw;
+    background-color: $keycolor;
+    text-align: center;
+    color: $white;
+}
+// pseudo class link
+a:link
+{
+    color: inherit;
+}
+// pseudo class visited
+a:visited
+{
+    color: olivedrab;
+}
+// pseudo class hover
+a:hover
+{
+    color: red;
+}
+// pseudo class active
+a:active
+{
+    color: purple;
+}
+a
+{
+    color: inherit;
+}
+a.button
+{
+    background-color: transparentize($black, .75);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 200ms;
+}
+a.button:hover
+{
+    background-color: transparentize($black, .9);
+    transition: background-color 200ms;
+}
+h1
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+h2
+{
+    font-weight: 100;
+    margin: 45px;
+}
+header div
+{
+    width: 35%;
+    padding: 5vw;
+    border-width: 3px 1px;
+    border-style: double solid;
+    border-color: $white;
+    margin: 0 auto;
+}

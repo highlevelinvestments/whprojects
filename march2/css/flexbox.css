@@ -1,0 +1,22 @@
+html {
+  background-color: khaki;
+}
+
+section {
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+  background-color: whitesmoke;
+}
+
+div {
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  background-color: lightseagreen;
+  margin: 5px;
+}
+/*# sourceMappingURL=flexbox.css.map */

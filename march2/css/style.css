@@ -1,0 +1,32 @@
+html {
+  background-color: #0eb34d;
+}
+
+p {
+  color: ghostwhite;
+}
+
+#damn {
+  color: darkslateblue;
+}
+
+p.jamesbond {
+  color: firebrick;
+}
+
+.sobxrbe {
+  color: goldenrod;
+}
+
+span {
+  color: firebrick;
+}
+
+div {
+  color: gold;
+}
+
+div span {
+  color: indigo;
+}
+/*# sourceMappingURL=style.css.map */
