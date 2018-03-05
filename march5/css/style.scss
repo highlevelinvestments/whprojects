@@ -1,0 +1,43 @@
+main
+{
+    background-color: cadetblue;
+    height: 50vh;
+    position: relative;
+}
+.img1
+{
+    position: absolute;
+    // top: ;
+    right: 0;
+    bottom: 0;
+    // left: ;
+}
+.img2
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+.img3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img4
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: transparentize(cyan, .4);
+    z-index: 2;
+}
