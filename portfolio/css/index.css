@@ -185,19 +185,4 @@ input[type=submit]:hover {
   align-content: center;
   align-items: center;
 }
-
-.nav.expanded {
-  left: 0;
-}
-
-.nav ul {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 /*# sourceMappingURL=index.css.map */

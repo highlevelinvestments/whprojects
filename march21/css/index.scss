@@ -1,0 +1,31 @@
+body
+{
+    background-color: white;
+    margin: 0px;
+    transition: background-color 500ms;
+}
+body.colorize
+{
+    background-color: red;
+}
+nav
+{
+    background-color: dimgray;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+button
+{
+    font-size: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 4px;
+    padding: 10px;
+}
+h1
+{
+    background-size: cover;
+    padding: 50px;
+}
