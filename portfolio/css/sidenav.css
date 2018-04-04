@@ -1,0 +1,73 @@
+@import url(https://use.fontawesome.com/releases/v5.0.8/css/all.css);
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #171717;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+
+#navBtn {
+  position: relative;
+  z-index: 10000;
+  transition: left 250ms;
+  left: 0;
+}
+
+#navBtn.active {
+  left: 250px;
+  transform: translateX(calc(100% + 20px));
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  z-index: 9999;
+  background-color: #539b4b;
+  width: 250px;
+  height: 100vh;
+  transition: left 250ms;
+}
+
+nav.viewNav {
+  left: 0;
+}
+
+nav ul {
+  padding: 65px 20px 20px;
+}
+
+nav li:nth-child(odd) {
+  background-color: #498a42;
+}
+
+nav li:hover a {
+  text-indent: 5px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: all 250 ms;
+}
+
+/* header {
+  padding: 10px;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+} */
+/*# sourceMappingURL=sidenav.css.map */
