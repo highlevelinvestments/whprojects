@@ -50,10 +50,12 @@ function right()
     if(right == 'knife')
     {
         console.log('excellent choice!')
+        river();
     } 
     else if(right == 'rock')
     {
         console.log('youre joking right?')
+        river();
     }
     else
     {
@@ -68,14 +70,30 @@ function left()
     if(left == 'run')
     {
         console.log('congradulations! you lost your right leg')
+        river();
     }
     else if(left == 'stand still')
     {
         console.log('Smart move. you get to live another day.')
+        river();
     }
     else
     {
         alert('Quit playing and act right')
+    }
+}
+
+function river()
+{
+    var river = prompt('there appears to be a river dividing the road, how will you cross? build a bridge or swim across?')
+
+    if(river == "build a bridge")
+    {
+        console.log('You are an engineer! Nothing can stop you.')
+    }
+    else if(river == 'swim across')
+    {
+        console.log('The current is too strong, now youre drowning and cant get out')
     }
 }
 getInfo();
