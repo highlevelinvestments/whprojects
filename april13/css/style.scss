@@ -1,0 +1,63 @@
+h1
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+nav
+{
+    background-color: hsl(200, 20%, 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10x;
+    margin-bottom: 20px;
+    button 
+    {
+        background-color: hsla(0, 0, 100%, .2);
+        border: 1px solid white;
+        color: white;
+        height: 45px;
+        cursor: pointer;
+    }
+}
+h3, p
+{
+    margin: 0 10px 10px;
+}
+
+ul
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li
+{
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    &.selected
+    {
+        background-color: hsl(200, 50%, 90%);
+    }
+    input[type="checkbox"]
+    {
+     
+    }
+    img 
+    {
+        background-color: white;
+        width: 100%;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+}
