@@ -56,7 +56,8 @@ function right()
     else if(right == 'rock')
     {
         console.log('youre joking right?')
-        ride();
+        document.body.style.backgroundColor = 'gray';
+        document.body.textContent = 'Game Over';
     }
     else
     {
@@ -66,7 +67,7 @@ function right()
 
 function left()
 {
-    var left = prompt('A mountain lion appears on the side of the road what do you do? "run" or "stand still?"')
+    // document.body.style.backgroundImage = "url('img/puma.jpg')";
     // document.body.style.backgroundImage = "url('img/puma.jpg')";
     document.body.style.backgroundColor = 'orange';
     if(left == 'run')
@@ -147,7 +148,7 @@ function trivia()
 
 function ride()
 {
-    var ride = prompt('There appears to be two cars in the side of the road, take one. A)Jeep B)Ferrari C)Walk')
+    var ride = prompt('There appears to be two cars in the side of the road, take one. A) Jeep B) Ferrari C) Walk')
 
     if(ride == "Jeep")
     {
@@ -163,10 +164,10 @@ function ride()
     }
     else(ride == "Walk")
     {
-        console.log('I gave you two cars and you want to walk?!?!?!?!?')
-        document.body.style.backgroundColor = 'gray';
-        document.body.textContent = 'Game Over';
-    }
+        // console.log('I gave you two cars and you want to walk?!?!?!?!?')
+        // document.body.style.backgroundColor = 'gray';
+        // document.body.textContent = 'Game Over';
+    } 
 }
 getInfo();
 
