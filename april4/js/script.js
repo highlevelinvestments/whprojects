@@ -27,7 +27,7 @@ function getInfo()
 {
     // document.body.style.backgroundImage = "url('img/roads.jpg')";
     var getInfo = prompt('You come across a split road, where will you go left or right?');
-    
+    document.body.style.backgroundColor = 'green';
     if(getInfo == 'right')
     {
         console.log('you are going the easy way, lucky you');
@@ -60,15 +60,15 @@ function right()
     }
     else
     {
-        alert('Quit playing and act right')
+        alert('Sorry, thats not a choice.')
     }
 }
 
 function left()
 {
-    // document.body.style.backgroundImage = "url('img/puma.jpg')";
     var left = prompt('A mountain lion appears on the side of the road what do you do? "run" or "stand still?"')
-
+    // document.body.style.backgroundImage = "url('img/puma.jpg')";
+    document.body.style.backgroundColor = 'orange';
     if(left == 'run')
     {
         console.log('congradulations! you lost your right leg')
@@ -81,7 +81,7 @@ function left()
     }
     else
     {
-        alert('Quit playing and act right')
+        alert('Sorry, thats not a choice.')
     }
 }
 
@@ -129,7 +129,7 @@ function shelter()
 
 function trivia()
 {
-    var trivia = prompt('Okay you made it to the other side of the road but an old man with a long white beard stands in the middle of the road. You must answer his question correctly to pass. He says "If you wish to pass answer this: What is the largest living bird by wingspan?" A) Flying Eagle B) Wandering Albatross C) Big Bird')
+    var trivia = prompt('Okay you made it to the other side of the road but an old man with a long white beard stands in the middle of the road. You must answer his question correctly to pass. He says "If you wish to pass answer this: What is the largest living bird by wingspan?" A) Flying Eagle B) Wandering Albatross')
 
     if(trivia == "Flying Eagle")
     {
@@ -143,12 +143,6 @@ function trivia()
     {
         console.log('Correct! You may pass')
     }
-    // else(trivia == "Big Bird")
-    // {
-    //     console.log('WRONG!!')
-    //     document.body.style.backgroundColor = 'gray';
-    //     document.body.textContent = 'Game Over';
-    // }
 }
 
 function ride()
