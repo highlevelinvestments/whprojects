@@ -27,7 +27,7 @@ function getInfo()
 {
     // document.body.style.backgroundImage = "url('img/roads.jpg')";
     var getInfo = prompt('You come across a split road, where will you go left or right?');
-    document.body.style.backgroundColor = 'green';
+    
     if(getInfo == 'right')
     {
         console.log('you are going the easy way, lucky you');
@@ -67,9 +67,8 @@ function right()
 
 function left()
 {
-    // document.body.style.backgroundImage = "url('img/puma.jpg')";
-    // document.body.style.backgroundImage = "url('img/puma.jpg')";
-    document.body.style.backgroundColor = 'orange';
+    var left = prompt('a mountain lion appears what will you do? A) run B) stand still')
+   
     if(left == 'run')
     {
         console.log('congradulations! you lost your right leg')
@@ -164,7 +163,7 @@ function ride()
     }
     else(ride == "Walk")
     {
-        // console.log('I gave you two cars and you want to walk?!?!?!?!?')
+        console.log('I gave you two cars and you want to walk?!?!?!?!?')
         // document.body.style.backgroundColor = 'gray';
         // document.body.textContent = 'Game Over';
     } 
