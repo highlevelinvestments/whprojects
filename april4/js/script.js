@@ -25,6 +25,7 @@
 
 function getInfo()
 {
+    document.body.textContent = 'Lets play a game!';
     // document.body.style.backgroundImage = "url('img/roads.jpg')";
     var getInfo = prompt('You come across a split road, where will you go left or right?');
     
